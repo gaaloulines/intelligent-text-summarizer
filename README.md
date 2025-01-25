@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Text Analysis and Summarization Platform
 
-## Getting Started
+This is a **Text Analysis and Summarization Platform** built with **Next.js**, **Prisma**, **PostgreSQL**, and integrates **MeaningCloud API** for text analysis. The platform allows users to generate text summaries, extract key phrases, perform sentiment analysis, and even convert text to speech. Users can view their summary history and analyze both pasted text and uploaded files.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Text Summarization**: Generate concise summaries from large blocks of text or uploaded files.
+- **Key Phrase Extraction**: Extract the most relevant key phrases from a given text.
+- **Sentiment Analysis**: Analyze the tone of the text (positive, neutral, or negative).
+- **Text-to-Speech**: Convert summarized text into speech audio files for easy listening.
+- **History Tracking**: View all previous text analyses and summaries.
+- **File Support**: Upload local text files for analysis.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Technologies Used
 
-## Learn More
+- **Frontend**: Next.js (React Framework)
+- **Backend**: Next.js API routes
+- **Database**: PostgreSQL (via Prisma ORM)
+- **External API**: MeaningCloud API for summarization, key phrase extraction, and sentiment analysis
+- **Authentication**: User authentication logic for secure access
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
